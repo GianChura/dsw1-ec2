@@ -16,10 +16,10 @@ public class SinDbController {
 	}
     @GetMapping(path="/idat/codigo")
 	public @ResponseBody String codigo() {
-		return "Chura ";
+		return "A1111317 ";
 	}
     @GetMapping(path="/idat/nombre-completo")
 	public @ResponseBody String nc() {
-		return "Giancarlo Chura";
+		return "Christian Giancarlo Chura";
 	}
 }
